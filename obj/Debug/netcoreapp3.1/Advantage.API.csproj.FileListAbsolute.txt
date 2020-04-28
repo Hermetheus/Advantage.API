@@ -1,3 +1,8 @@
+C:\Users\allan\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.csprojAssemblyReference.cache
+C:\Users\allan\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.csproj.CoreCompileInputs.cache
+C:\Users\allan\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\allan\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.AssemblyInfoInputs.cache
+C:\Users\allan\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.AssemblyInfo.cs
 C:\Users\allan\Advantage.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\allan\Advantage.API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\allan\Advantage.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -40,11 +45,6 @@ C:\Users\allan\Advantage.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni
 C:\Users\allan\Advantage.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\allan\Advantage.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\allan\Advantage.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\allan\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.csprojAssemblyReference.cache
-C:\Users\allan\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.csproj.CoreCompileInputs.cache
-C:\Users\allan\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\allan\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.AssemblyInfoInputs.cache
-C:\Users\allan\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.AssemblyInfo.cs
 C:\Users\allan\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.RazorTargetAssemblyInfo.cache
 C:\Users\allan\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.csproj.CopyComplete
 C:\Users\allan\Advantage.API\obj\Debug\netcoreapp3.1\staticwebassets\Advantage.API.StaticWebAssets.Manifest.cache

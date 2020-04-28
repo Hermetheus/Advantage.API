@@ -1,6 +1,7 @@
 using Advantage.API.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,11 +25,15 @@ namespace Advantage.API
 
             _connectionString = Configuration["secretConnectionString"];
 
-            services.AddMvc();
+            services.AddMvc(
+            );
+
 
             services.AddEntityFrameworkNpgsql().AddDbContext<ApiContext>(opt => opt.UseNpgsql(_connectionString));
 
             services.AddTransient<DataSeed>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,6 +59,10 @@ namespace Advantage.API
             var nCustomers = 20;
             var nOrders = 1000;
             seed.SeedData(nCustomers, nOrders);
+
+            app.UseEndpoints(routes => routes.MapControllerRoute(
+                "default", "api/{controller}/{action}/{id?}"
+            ));
 
         }
     }
